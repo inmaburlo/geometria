@@ -7,6 +7,10 @@ public class Circulo_IBR extends FiguraGeometrica_IBR {
 	public Circulo_IBR(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+	    if (r<0) 
+	    {
+	    	r*=-1;
+	    }
 	}
 
 	@Override
