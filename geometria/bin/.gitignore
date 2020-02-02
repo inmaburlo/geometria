@@ -1,8 +1,2 @@
-/Circulo.class
-/FiguraGeometrica.class
-/Rectangulo.class
-/Triangulo.class
-/Triangulo_IBR.class
-/Circulo_IBR.class
-/FiguraGeometrica_IBR.class
-/Rectangulo_IBR.class
+/test/
+/CircleTest.class
