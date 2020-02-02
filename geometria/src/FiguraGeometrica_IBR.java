@@ -10,6 +10,10 @@ public abstract class FiguraGeometrica_IBR {
 
 	public abstract double area();
 	
+	public double semiPerimetro() {
+		return this.perimetro() / 2;
+	}
+	
 	public abstract double perimetro();
 
 	public String getTipoFigura() {
